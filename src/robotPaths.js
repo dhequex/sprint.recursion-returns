@@ -36,7 +36,7 @@ class RobotPaths {
       return;
     }
 
-    if (row === this.board.length - 1 && col === this.board.length - 1) {
+    if (row === this.board.length - 1 && column === this.board.length - 1) {
       //stop case
       successfulPaths += 1;
       return;
